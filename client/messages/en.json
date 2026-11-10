@@ -1,0 +1,148 @@
+{
+  "app": {
+    "title": "Order management",
+    "description": "Client, product and order management demo"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "filter": "Filter",
+    "search": "Search",
+    "searchLabel": "Search",
+    "select": "Select",
+    "empty": "-",
+    "serverError": "Server error ({status})",
+    "pagination": {
+      "label": "Pages",
+      "summary": "Page {page} of {totalPages} ({total} total)",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "edit": "Edit",
+    "loading": "Loading..."
+  },
+  "nav": {
+    "orders": "Orders",
+    "clients": "Clients",
+    "products": "Products",
+    "logout": "Log out"
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "description": "The page could not be loaded. Check that the server is running and try again.",
+    "retry": "Try again",
+    "notFoundTitle": "Page not found",
+    "notFoundDescription": "This record does not exist or has been deleted.",
+    "backToOrders": "Back to orders"
+  },
+  "login": {
+    "description": "Sign in with the administrator account",
+    "password": "Password",
+    "submit": "Sign in",
+    "username": "Username",
+    "title": "Sign in"
+  },
+  "clients": {
+    "title": "Clients",
+    "new": "New client",
+    "edit": "Edit client",
+    "searchPlaceholder": "Name, email or phone",
+    "empty": "No clients found",
+    "deleteConfirm": "Delete client \"{name}\"?",
+    "fields": {
+      "name": "Name",
+      "nameLong": "Name or company name",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    }
+  },
+  "products": {
+    "title": "Products",
+    "new": "New product",
+    "edit": "Edit product",
+    "searchPlaceholder": "Product name",
+    "allCategories": "All categories",
+    "empty": "No products found",
+    "outOfStock": "Out of stock",
+    "stockUnits": "{count} pcs",
+    "deleteConfirm": "Delete product \"{name}\"?",
+    "fields": {
+      "name": "Name",
+      "category": "Category",
+      "price": "Price",
+      "priceEur": "Price, €",
+      "stock": "In stock",
+      "stockLong": "Quantity in stock"
+    }
+  },
+  "orders": {
+    "title": "Orders",
+    "new": "New order",
+    "detailTitle": "Order #{id}",
+    "all": "All orders",
+    "allStatuses": "All statuses",
+    "empty": "No orders",
+    "createdAt": "created {date}",
+    "total": "Total",
+    "sum": "Total:",
+    "selectClient": "Select a client",
+    "selectProduct": "Select a product",
+    "productOption": "{name} - {price} (stock {stock})",
+    "productLabel": "Product {index}",
+    "removeLine": "Remove line",
+    "addLine": "Add product",
+    "submit": "Create order",
+    "cancelOrder": "Cancel order",
+    "cancelConfirm": "Cancel the order? Products will be returned to stock.",
+    "markAs": "Mark as: {status}",
+    "finished": "The order is finished, its status can no longer be changed.",
+    "fields": {
+      "number": "No.",
+      "client": "Client",
+      "date": "Date",
+      "status": "Status",
+      "sum": "Total",
+      "product": "Product",
+      "products": "Products",
+      "quantity": "Quantity",
+      "price": "Price"
+    },
+    "status": {
+      "NEW": "New",
+      "IN_PROGRESS": "In progress",
+      "COMPLETED": "Completed",
+      "CANCELLED": "Cancelled"
+    },
+    "items": "Order items",
+    "changeStatus": "Change status",
+    "open": "View"
+  },
+  "validation": {
+    "usernameRequired": "Enter your username",
+    "passwordRequired": "Enter your password",
+    "nameRequired": "Name is required",
+    "nameTooLong": "Name is too long",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email format",
+    "phoneInvalid": "Invalid phone number",
+    "addressTooLong": "Address is too long",
+    "productNameRequired": "Name is required",
+    "productNameTooLong": "Name is too long",
+    "priceNotNumber": "Price must be a number",
+    "priceNegative": "Price cannot be negative",
+    "priceTooHigh": "Price is too high",
+    "priceScale": "Price can have at most 2 decimal places",
+    "stockNotNumber": "Quantity must be a number",
+    "quantityNotInteger": "Quantity must be a whole number",
+    "stockNegative": "Quantity cannot be negative",
+    "stockTooHigh": "Quantity cannot exceed 1,000,000",
+    "categoryRequired": "Select a category",
+    "clientRequired": "Select a client",
+    "productRequired": "Select a product",
+    "quantityMin": "Quantity must be at least 1",
+    "itemsRequired": "An order must contain at least one product",
+    "invalid": "Invalid value"
+  }
+}
